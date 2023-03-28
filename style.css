@@ -1,0 +1,81 @@
+/* Body styles */
+body {
+	background: gainsboro
+	
+	font-family: 'Open Sans', sans-serif;
+	color: black
+}
+h1{
+  
+  text-align: center;
+}
+
+/* Container styles */
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Form styles */
+form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#weightLevel, #heightLevel {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+
+label {
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+}
+
+input {
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	border: none;
+	background-color: #4CAF50;
+	color: #fff;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+/* Result styles */
+#result {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+/* Footer styles */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: justify;
+  
+}
